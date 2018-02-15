@@ -1,14 +1,4 @@
-# SFDX  App
+Salesforce DX Dependency Injection (DI) via DCP's Demo
+=======================================================
 
-## Dev, Build and Test
-
-
-## Resources
-
-
-## Description of Files and Directories
-
-
-## Issues
-
-
+WIP: Demonstration of DI between DX Developer Controlled Packages using Custom Metadata
