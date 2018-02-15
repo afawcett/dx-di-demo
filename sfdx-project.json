@@ -1,0 +1,44 @@
+{
+  "packageDirectories": [
+    {
+      "path": "package-di",
+      "id": "0Ho1N0000008OK6SAM",
+      "versionName": "Package DI - Spring - 2018",
+      "versionNumber": "1.0.0.NEXT",      
+      "default": true
+    },    
+    {
+      "path": "package-a",
+      "id": "0Ho1N0000008OJwSAM",
+      "versionName": "Package A - Spring - 2018",
+      "versionNumber": "1.0.0.NEXT",      
+      "dependencies" : [
+        {
+          "packageId": "0Ho1N0000008OK6SAM",
+          "versionNumber": "1.0.0.LATEST"
+        }
+      ],      
+      "default": false
+    },
+    {
+      "path": "package-b",
+      "id": "0Ho1N0000008OK1SAM",
+      "versionName": "Package B - Spring - 2018",
+      "versionNumber": "1.0.0.NEXT",      
+      "dependencies" : [
+        {
+          "packageId": "0Ho1N0000008OK6SAM",
+          "versionNumber": "1.0.0.LATEST"
+        },
+        {
+          "packageId": "0Ho1N0000008OJwSAM",
+          "versionNumber": "1.0.0.LATEST"
+        }
+      ],
+      "default": false
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "42.0"
+}

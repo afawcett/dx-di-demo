@@ -1,0 +1,7 @@
+<aura:component controller="WidgetManagerController" implements="force:lightningQuickAction">
+    <lightning:card>
+        <p><lightning:input label="Some Input" aura:id="someinput" /></p>
+        <p>&nbsp;</p>
+        <p><lightning:button variant="brand" label="Do something cool!" onclick="{! c.handleClick }" /></p>
+    </lightning:card>
+</aura:component>	
